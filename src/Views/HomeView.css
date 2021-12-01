@@ -1,0 +1,60 @@
+.container {
+  background: #2b4ce2;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 50rem;
+  max-width: 100%;
+}
+
+.expense-container {
+  padding: 0rem;
+  background-color: hsla(0, 85%, 49%, 0.849);
+  margin: 1rem auto;
+  width: 50rem;
+  max-width: 85%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.expense-date {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 1px solid #ececec;
+  background-color: #000000;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense-item {
+  text-align: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #000000;
+  color: white;
+
+
+}
+
+.expense-amount {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #000000;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  width: 5.5rem;
+  height: 5.5rem;
+  
+  
+  
+}
