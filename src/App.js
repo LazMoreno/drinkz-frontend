@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeView from "./Views/HomeView";
 import LoginView from "./Views/LoginView";
-import NavBar from "./components/NavBar";
+// import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
-    <NavBar/>
+    {/* <NavBar/> */}
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeView />} />
